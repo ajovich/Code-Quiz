@@ -1,0 +1,28 @@
+* {
+    background-color: #ECFFF8;
+    color: #C589E8;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    color: #963D5A;
+    font-size: 32px;
+}
+
+div {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.startTimeButton {
+    background-color: #E3DAFF;
+    color: #4C191B;
+    font-size: 32px;
+    border-radius: 10px;
+    padding: 10px;
+}

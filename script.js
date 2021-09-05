@@ -1,10 +1,11 @@
-var startButton = document.querySelector(".start-button");
-var timerElement = document.querySelector(".timerCount");
+var currentTime = document.querySelector(".currentTime");
+var startTimeButton = document.querySelector(".startTimeButton");
+var questionsDiv = document.querySelector(".questionsDiv");
+var container = document.querySelector(".container");
 
 // Declaring variables
-var winCounter = 0;
-var timer;
-var timerCount;
+var score = 0;
+var questionIndex = 0;
 
 // An array of code quiz questions
 var questions = [
